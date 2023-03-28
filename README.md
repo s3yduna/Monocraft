@@ -6,70 +6,71 @@
 
 ![](images/preview.png)
 
-The monospaced font for developers who like Minecraft a bit _too_ much.
+Minecraft'ı seven yazılımcılar için tek aralıklı yeni bir font tipi.
 
-*Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game.*
+*Uyarı: Bu projenin Minecraft veya Mojang ile bir bağı yoktur, hayran projesidir. Bu font Minecraft arayüzünde kullanılan yazı tipinden esinlenerek yapılmıştır.
+Orjinal oyun dosyalarından birini veya yazı tipi dosyalarını içermez.*
 
-## Features
+## Özellikler
 
 - Minecraft!
-  - The characters in this font were based around the [typeface](https://github.com/IdreesInc/Minecraft-Font) used in the Minecraft UI, with each glyph updated for better readability and spacing
-- Monospaced!
-  - Each of the 500+ glyphs included in this font have been carefully redesigned to work in a monospaced font
-  - Thin characters like "i" and "l" have been reworked with tasteful tails and serifs to look better in a monospaced environment
-- Programming ligatures!
-  - Add some spice to your programming life with all new ligature characters
-  - Arrows now look like arrows and comparison operators are easier to see at a glance
+  - Kullanılan karakterler Minecraft arayüzünde bulunan [yazı tipini](https://github.com/IdreesInc/Minecraft-Font) kaynak almıştır, her bir gilf okunabilirliği arttırmak amacıyla güncellenmiştir. 
+- Tek Aralıklı!
+  - Yazı tipi içerisinde bulunan 500+ glif tek aralıklı yazı tiplerinde çalışacak şekilde dikkatlice yeniden tasarlandı
+  - "i" ve "l" gibi ince karakterlere daha iyi görünebilmeleri için kuyruklar eklendi 
+- Bitişik Programlama Harfleri !
+  - Yeni eklenen birleşik karakterler ile kod satırlarınıza renk katın
+  - Oklar artık birer ok gibi görünüyor ve karşılaştırma operatörleri çok daha ön planda
 
-## Glyphs
+## Glifler
 
 ![](images/glyphs.png)
 
-## How to install
+## Kurulum Aşamaları
 
 ### Windows
 
-Download the most recent `Monocraft.ttf` file from the [Releases](https://github.com/IdreesInc/Monocraft/releases) page. Right click on the downloaded font and select **Install**. You might need administrative access to install fonts, depending on your machine.
+`Monocraft.ttf` dosyasının son sürümünü [Sürümler](https://github.com/IdreesInc/Monocraft/releases) sayfasından indirin. İndirdiğiniz dosyaya sağ tıklayın ve **Install** basın. Kullandığınız cihaza göre değişkenlik göstermekle birlikte yönetici izni isteyebilir.
 
 ### Mac
 
-#### Using Homebrew
+#### Homwbrew Kullananlar İçin
 
 ```shell
 brew tap homebrew/cask-fonts
 brew install --cask font-monocraft
 ```
 
-#### Manually
+#### Manuel Kurulum
 
-Download the most recent `Monocraft.ttf` file from the [Releases](https://github.com/IdreesInc/Monocraft/releases) page. Double click on the downloaded font file and select **Install Font** in the window that appears. More help available [here](https://support.apple.com/en-us/HT201749).
+`Monocraft.ttf` dosyasının son sürümünü [Sürümler](https://github.com/IdreesInc/Monocraft/releases) sayfasından indirin. İndirdiğiniz dosyaya sağ tıklayın ve **Install** basın. Daha fazla yardıma [buradan](https://support.apple.com/en-us/HT201749) ulaşabilirsiniz.
 
 ### Linux
 
-Download the most recent `Monocraft.ttf` file from the [Releases](https://github.com/IdreesInc/Monocraft/releases) page. Move the file to ~/.local/share/fonts (create the folder if it doesn't already exist). In a terminal, run `fc-cache -fv`. Alternatively, log out and log in again. 
+`Monocraft.ttf` dosyasının son sürümünü [Sürümler](https://github.com/IdreesInc/Monocraft/releases) sayfasından indirin. Dosyayı to ~/.local/share/fonts (eğer klasör yok ise kendiniz oluşturun) konumuna taşıyın. Terminal üzerinden, run `fc-cache -fv`. Çıkış yaptıktan sonra tekrar giriş yapın.
 
-## How to use
+## Nasıl Kulanırım
 
-After following the installation instructions up above, simply select the "Monocraft" font (note the space) in any application that supports custom fonts. You might need to restart the application or your computer for the font to appear.
+Yukarıda yazan talimatları uyguladıktan sonra "Monocraft" yazı tipini (boşluğa dikkat) özel yazı tiplerini destekleyen bir program içerisinden seçin. Yazı tipinin görünür olabilmesi için programı veya bilgisayarınızı yeniden başlatmanız gerekebilir.
 
-## FAQ
+## SSS
 
-### What ligatures are available?
+### Ne tür bitişik harfler içeriyor?
 
-So far, the following ligatures have been added to the font:
+Şu ana dek aşağıda bulunan bitişik harfler eklendi:
 
 <img src="images/ligatures.png" width="300">
 
-If there is another character combination that you feel could be a ligature, feel free to create an issue!
+Farklı karakterlerin kombinasyonunu istiyorsanız eğer "Issues" kısmından yazmayı unutmayın.
 
-### How are these characters generated?
+### Bu karakterler nasıl oluşturuldu?
 
-Using [FontForge's](https://fontforge.org/en-US/) excellent Python extension, the glyphs are created from configuration files representing each character's pixels. Diacritics are created separately and are combined with the original characters to create over 500 unique glyphs. To learn more, check out the source code in the [src](https://github.com/IdreesInc/Monocraft/tree/main/src) folder.
+[FontForge'un](https://fontforge.org/en-US/) harika Python eklentisini kullanarak. Daha fazlası için [src](https://github.com/IdreesInc/Monocraft/tree/main/src) klasörü içinde bulunan kaynak kodlarını inceleyebilirsiniz.
 
-### Do you have a version with the original Minecraft font (not monospaced)?
+### Orjinal Minecraft tipine sahip bir sürümünüz bulunmakta mı (tek aralıklı olmamak kaydıyla)?
 
-I've got you covered, check out my rendition of the Minecraft typeface [here](https://github.com/IdreesInc/Minecraft-Font).
+Tabii ki, [buradan](https://github.com/IdreesInc/Minecraft-Font) Minecraft yazı tipi klonumu kontrol edebilirsiniz.
 
-### What if I want to use a font that's actually good?
+### Harbiden güzel bir font kullanmak istersem?
 
-Understandable, check out [Fira Code](https://github.com/tonsky/FiraCode) for a font with amazing attention to detail, or [Scientifica](https://github.com/nerdypepper/scientifica) for a bitmap font similar to this.
+Anlayabiliyorum, [Fira Code](https://github.com/tonsky/FiraCode) harika detaylı yazı tipleri için ziyaret edebilirsiniz, veya [Scientifica'ya](https://github.com/nerdypepper/scientifica) da bakabilirsiniz. Bitmap'i Monocraft'ı andırıyor.
