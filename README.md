@@ -4,7 +4,8 @@
 ![](https://img.shields.io/github/license/IdreesInc/Monocraft)
 [![](https://img.shields.io/github/v/release/IdreesInc/Monocraft)](https://GitHub.com/IdreesInc/Monocraft/releases/)
 
-![](images/preview.png)
+<img width="996" alt="previewTurkish" src="https://user-images.githubusercontent.com/80430560/228266828-aba1f2de-7dc9-4505-8ed5-60bc27796ebb.png">
+
 
 Minecraft'ı seven yazılımcılar için tek aralıklı yeni bir font tipi.
 
