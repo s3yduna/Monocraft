@@ -1,4 +1,4 @@
-# Monocraft
+# Monocraft Türkçe Çeviri (Kurulum + Kullanım (Readme.md))
 
 [![Github all releases](https://img.shields.io/github/downloads/IdreesInc/Monocraft/total.svg)](https://GitHub.com/IdreesInc/Monocraft/releases/)
 ![](https://img.shields.io/github/license/IdreesInc/Monocraft)
